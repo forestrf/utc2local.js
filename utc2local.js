@@ -3,7 +3,7 @@
  * @author Andrés Leone <forestrf@gmail.com>
  */
 var utc2local = function(elem, format) {
-	if(!(elem instanceof Array)){
+	if(elem.length === undefined){
 		elem = [elem];
 	}
 	if(format === undefined){
