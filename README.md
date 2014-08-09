@@ -16,6 +16,6 @@ Example formatting the date
 	<script src="your copy of tc2local.js"></script>
 	<script>
 		utc2local(document.querySelectorAll('.datetime'), function(date){
-			return timeObject.getDate() + ' ' + ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][timeObject.getMonth()] +' at ' + timeObject.getHours() + ':' + timeObject.getMinutes() + ':' + timeObject.getSeconds();
+			return date.getDate() + ' ' + ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][date.getMonth()] +' at ' + date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds();
 		});
 	</script>
