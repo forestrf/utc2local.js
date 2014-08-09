@@ -5,7 +5,7 @@ utc2local.js is a variation of the <a href="https://github.com/misjerrywu/utc2lo
 Example without formatting the date
 
  	<span class="datetime">2013-01-27 10:34:13</span>
-	<script src="https://raw.githubusercontent.com/forestrf/utc2local.js/master/utc2local.min.js"></script>
+	<script src="your copy of tc2local.js"></script>
 	<script>
 		utc2local(document.querySelectorAll('.datetime'));
 	</script>
@@ -13,7 +13,7 @@ Example without formatting the date
 Example formatting the date
 
 	<span class="datetime">2013-01-27 10:34:13</span>
-	<script src="https://raw.githubusercontent.com/forestrf/utc2local.js/master/utc2local.min.js"></script>
+	<script src="your copy of tc2local.js"></script>
 	<script>
 		utc2local(document.querySelectorAll('.datetime'), function(date){
 			return timeObject.getDate() + ' ' + ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][timeObject.getMonth()] +' at ' + timeObject.getHours() + ':' + timeObject.getMinutes() + ':' + timeObject.getSeconds();
