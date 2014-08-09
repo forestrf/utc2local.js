@@ -13,7 +13,7 @@ var utc2local = function(elem, format) {
 	}
 	var i = 0;
 	while(i < elem.length){
-		var utc_datetime = String.trim(elem[i].innerHTML);
+		var utc_datetime = elem[i].innerHTML.trim();
 		
 		utc_datetime = utc_datetime.split(' ');
 		utc_date = utc_datetime[0].split('-');
